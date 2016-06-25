@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 2000;
+var port = process.env.PORT || 2000;
 
 
 
